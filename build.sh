@@ -26,7 +26,8 @@ cd "$PLUGIN_DIR" || exit
 rm -f *.tgz
 
 # Pack the npm package
-TARBALL=$(npm pack)
+npm pack
+TARBALL=$(ls | grep tgz)
 
 # Move back to the root directory
 cd ../..

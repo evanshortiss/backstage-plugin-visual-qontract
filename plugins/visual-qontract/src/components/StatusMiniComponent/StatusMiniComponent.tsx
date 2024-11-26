@@ -117,7 +117,7 @@ export const StatusMiniComponent = () => {
       ></CardHeader>
       <CardContent>
         <Grid container>
-          <Grid item xs={3}></Grid>
+          <Grid item xs={4}></Grid>
           <Grid item>
             <StatusIndicatorIcon />
           </Grid>
@@ -126,7 +126,7 @@ export const StatusMiniComponent = () => {
               {status.status?.description || 'Status Unknown'}
             </Typography>
           </Grid>
-          <Grid item xs={3}></Grid>
+          <Grid item xs={4}></Grid>
         </Grid>
       </CardContent>
       <CardActions>

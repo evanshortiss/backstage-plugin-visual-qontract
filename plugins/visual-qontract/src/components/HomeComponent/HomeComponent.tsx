@@ -203,7 +203,7 @@ export const HomeComponent = () => {
           <InfoCard
             title="Get Started"
             avatar={<DirectionsRunIcon />}
-            body="Read the inScope User Guide and hit the ground running."
+            body="Read the User Guide and hit the ground running."
             link="/catalog/default/component/backstage-app/docs/"
             linkText="User Guide"
           />
@@ -234,7 +234,7 @@ export const HomeComponent = () => {
 
   return (
     <Page themeId="home">
-      <Header title="inScope" />
+      <Header title="Developer Hub" />
       <Content>
         <Grid container direction="column">
           <Grid item>
@@ -245,14 +245,14 @@ export const HomeComponent = () => {
           </Grid>
           <Grid item>
             <Grid container direction="row">
-              <Grid item xs={12} md={6}>
+              {/* <Grid item xs={12} md={6}>
                 <Grid container direction="column">
                   <Grid item xs={12}>
                     <IncidentResponseCard />
                   </Grid>
                 </Grid>
-              </Grid>
-              <Grid item xs={12} md={6}>
+              </Grid> */}
+              <Grid item xs={12} md={12}>
                 <Grid container>
                   <Grid item xs={12}>
                     <StatusMiniComponent />
