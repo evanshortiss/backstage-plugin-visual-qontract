@@ -103,9 +103,9 @@ export const FeaturedNews = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Typography variant="button">{story.title}</Typography>
+                  <Typography noWrap variant="button">{story.title}</Typography>
                 </Link>
-                <Typography variant="body2">{story.body}</Typography>
+                <Typography noWrap variant="body2">{story.body}</Typography>
               </CardContent>
             </CardActionArea>
           </Card>
