@@ -99,6 +99,7 @@ export const FeaturedNews = () => {
               />
               <CardContent className={classes.cardBody}>
                 <Link
+                  noWrap
                   href={story.link.url}
                   target="_blank"
                   rel="noopener noreferrer"

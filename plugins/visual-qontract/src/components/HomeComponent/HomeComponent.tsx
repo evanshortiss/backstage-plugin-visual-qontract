@@ -240,7 +240,7 @@ export const HomeComponent = () => {
           <Grid item>
             <TopCards />
           </Grid>
-          <Grid item>
+          <Grid item style={{maxWidth: '100%'}}>
             <FeaturedNews />
           </Grid>
           <Grid item>
